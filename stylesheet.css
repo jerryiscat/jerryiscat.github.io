@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+#site-header {
+  padding: 28px 20px;
+  text-align: center;
+}
+
+#site-header h1 {
+  margin: 0 0 8px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666666;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.section {
+  margin-bottom: 42px;
+}
+
+.section h2 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+#about {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  align-items: center;
+  gap: 28px;
+}
+
+#about h2 {
+  margin-top: 0;
+}
+
+.profile-image {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.education-item,
+.experience-item {
+  margin: 24px 0;
+}
+
+.entry-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.entry-heading h3,
+.education-item p,
+.location {
+  margin: 0;
+}
+
+.entry-heading span,
+.location {
+  color: #555555;
+  font-size: 14px;
+}
+
+.experience-item > p:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+}
